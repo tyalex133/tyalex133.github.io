@@ -1,0 +1,162 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Default light mode */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Project box */
+.project {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    section {
+        max-width: 90%;
+    }
+    nav a {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
+/* Base styles for larger screens */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+    
+    section {
+        max-width: 90%;
+    }
+    
+    form {
+        width: 100%;
+    }
+
+    input, button {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    section {
+        padding: 10px;
+    }
+    
+    button {
+        font-size: 1em;
+    }
+}
+/* Default light mode */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+body {
+    background-image: url('./133913679378978278.jpg'); /* Adjusted relative path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+} 
+section {
+    background: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode {
+    background-image: none; /* Remove background image in dark mode */
+    background-color: #222; /* Ensure dark background */
+    color: #fff;
+}
